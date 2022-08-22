@@ -10,4 +10,12 @@ O projeto é 100% acadêmico, e os direitos de imagem são de seus respectivos d
 Segue abaixo uma imagem de preview  
   
 ![Site](https://user-images.githubusercontent.com/90656961/185997856-114c2c75-bdae-4c9f-888d-c6f246cb62ef.png)
+  
+  
+## 02.Calculadora
 
+Calculadora básica feita com HTML, CSS e um pouco de Js. Seria possível adicionar algumas features e extras, mas o foco é ter um projeto funcional por dia.  
+Segue abaixo uma imagem da calculadora, com uma operação sendo feita.  
+
+![image](https://user-images.githubusercontent.com/90656961/185999857-99fb3646-f744-4d68-9a53-a86c78aa45f9.png)
+  
