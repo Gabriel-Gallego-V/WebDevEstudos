@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#CalcBorda{
+    background-color: #7C776F;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 30px;
+    border-style: solid;
+    max-width: 500px;
+    min-width: 500px;
+}
+#CalcNum{
+    user-select: none;
+    background-color: green;
+    font-family: 'Press Start 2P', cursive;
+    margin: 5% 3% 3% 3%;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: right;
+    font-size: 20px;
+}
+#CalcNum{
+    min-height: 42px;
+}
+#CalcNum #CalcCont{
+    user-select: none;
+    margin: 5px 3% 0 0;
+}
+#NumBorda{
+    user-select: none;
+    margin: 3% 3% 3% 3%;
+    border-style: solid;
+}
+.Btn{
+    background-color: #2B2924;
+    color: white;
+    user-select: none;
+    position: relative;
+    display: inline;
+    margin: 3% 2% 0 2%;
+    width: 90px;
+    height: 90px;
+    font-size: 20;
+}
+
+.Btn:hover{
+    background-color: #93928F;
+
+}
+
+.BtnOp{
+    background-color: #2B2924;
+    color: white;
+    user-select: none;
+    position: relative;
+    display: inline;
+    margin: 3% 2% 0 2%;
+    width: 90px;
+    height: 20px;
+    font-size: 20;
+}
+.BtnOp:hover{
+    background-color: #93928F;
+}
+.BtnZ{
+    background-color: #2B2924;
+    color: white;
+    user-select: none;
+    position: relative;
+    display: inline;
+    margin: 3% 2% 3% 2%;
+    width: 315px;
+    height: 50px;
+    font-size: 20;
+}
+.BtnZ:hover{
+    background-color: #93928F;
+
+}
+.BtnC{
+    background-color: #2B2924;
+    color: white;
+    user-select: none;
+    position: relative;
+    display: inline;
+    margin: 3% 2% 3% 2%;
+    width: 90px;
+    height: 50px;
+    font-size: 20;
+}
+.BtnC:hover{
+    background-color: #93928F;
+
+}
