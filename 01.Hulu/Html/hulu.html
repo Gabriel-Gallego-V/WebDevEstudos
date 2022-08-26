@@ -14,7 +14,28 @@
             <header class="Cabecalho">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hulu_Japan_logo.png/1024px-Hulu_Japan_logo.png" alt="Logo Hulu" id="HuluLogo">
                 <div id="Teste">
-                    <a href="#" id="LogInBtn">LOG IN</a>
+                    <div class="Cat">
+                        <a href="#" id="LogInBtn" onclick="LogIn()">LOG IN</a>
+                        <a href="#" id="Categorias" onclick="DropDwn()">CATEGORIES</a>
+                        <div id="LogMenu" class="LogCont">
+                            <p>Log In info</p>
+                            <p id="Placeholder">-------------------------------------</p>
+                            <input type="text" id="LogEmail" placeholder="Email">
+                            <input type="text" id="LogSenha" placeholder="Password">
+                            <a href="#" id="ForgoPass">No password?</a>
+                            <button id="LogBtn">Submit</button>
+                        </div>
+                        <div id="DropMenu" class="dropCont">
+                            <a href="#">Romance</a>
+                            <a href="#">Action</a>
+                            <a href="#">Drama</a>
+                            <a href="#">Fantasy</a>
+                            <a href="#">Horror</a>
+                            <a href="#">Mystery</a>
+                            <a href="#">Thriller</a>
+                          </div>
+                    </div>
+
                 </div>
             </header>
             <h3 id="label">Bundle with any Hulu plan & save</h3>
