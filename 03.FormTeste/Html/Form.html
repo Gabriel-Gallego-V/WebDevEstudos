@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Form.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="Centra">
+
+        <div class="Intro">
+            <h2>Formulario de teste</h2>
+            <h3>Nenhum dado aqui será usado, relaxa</h3>
+        </div>
+
+        <div class="FormBack">
+
+            <div class="Form">
+
+                <div class="inputBoxes">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" placeholder="Insira seu nome" autocomplete="name">
+                </div>
+
+                <div class="inputBoxes">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Insira seu e-mail">
+                </div>
+
+                <div class="inputBoxes">
+                    <label for="idade">Idade (opcional)</label>
+                    <input type="number" id="idade" placeholder="insira sua idade">
+                </div>
+
+                <div class="inputBoxes">
+                    <label for="periodo">Qual das opções abaixo representa sua situação atual?</label>
+                    <!-- Aqui a tag Select cria uma caixa de escolha para o usuário -->
+                    <!-- Enquanto o "Disable selected value" coloca um template antes da seleção do usuário -->
+                    <select name="periodo" class="Selects">
+                        <option disabled selected value>Escolha uma opção</option>
+                        <option value="Desempregado">Desempregado(a)</option>
+                        <option value="Estagiario">Estagiário(a)</option>
+                        <option value="Junior">Júnior</option>
+                        <option value="Pleno">Pleno</option>
+                        <option value="Senior">Sênior</option>
+                    </select>
+                </div>
+
+                <h3>Qual das opções abaixo representa sua satisfção com seu emprego atual?</h3>
+                <!-- Aqui os radios precisam estar com o mesmo nome, para apenas um ser utilizável -->
+
+                <div class="radioBoxes">
+                    <input type="radio" id="muitoS" name="satisF" class="radios">
+                    <label for="muitoS">Muito Satisfeito</label>
+                </div>
+
+                <div class="radioBoxes">
+                    <input type="radio" id="satisfeito" name="satisF" class="radios">
+                    <label for="satisfeito">Satisfeito</label>
+                </div>
+
+                <div class="radioBoxes">
+                    <input type="radio" id="indiferente" name="satisF" class="radios">
+                    <label for="indiferente">Indiferente</label>
+                </div>
+
+                <div class="radioBoxes">
+                    <input type="radio" id="insatisfeito" name="satisF" class="radios">
+                    <label for="insatisfeito">Insatisfeito</label>
+                </div>
+
+                <div class="radioBoxes">
+                    <input type="radio" id="muitoIns" name="satisF" class="radios">
+                    <label for="muitoIns">Muito Insatisfeito</label>
+                </div>
+
+                <div class="inputBoxes">
+                    <h3>Como entrou na sua empresa/cargo atual?</h3>
+                    <select name="entry" class="Selects">
+                        <option disabled selected value>Escolha uma opção</option>
+                        <option value="Recomendação">Recomendação</option>
+                        <option value="Entrevista">Entrevista</option>
+                        <option value="Promoção">Promoção</option>
+                        <option value="Concurso">Concurso</option>
+                    </select>
+                </div>
+
+                <h3>Quais linguagens/tecnologias são utilizadas no seu emprego atual?</h3>
+
+                <div class="radioBoxes">
+                    <input type="checkbox" name="html/css" class="radios">
+                    <label for="html/css">HTML/CSS</label>
+                </div>
+
+                <div class="radioBoxes">
+                    <input type="checkbox" name="js" class="radios">
+                    <label for="js">Javascript</label>
+                </div>
+
+                <div class="radioBoxes">
+                    <input type="checkbox" name="PHP" class="radios">
+                    <label for="PHP">PHP</label>
+                </div>
+
+                <div class="radioBoxes">
+                    <input type="checkbox" name="C#" class="radios">
+                    <label for="C#">C#</label>
+                </div>
+
+                <div class="radioBoxes">
+                    <input type="checkbox" name="Py" class="radios">
+                    <label for="Py">Python</label>
+                </div>
+
+                <div class="radioBoxes">
+                    <input type="checkbox" name="Java" class="radios">
+                    <label for="Java">Java</label>
+                </div>
+
+                <div class="radioBoxes">
+                    <input type="checkbox" name="Outros" class="radios">
+                    <label for="Outros">Outros(especificar): </label>
+                    <input type="text" id="Outros" placeholder="Insira as opções">
+                </div>
+
+                <div class="Sugest">
+                    <label for="Sugestoes">Alguma Sugestão ou perguntas?
+                    </label>
+                    <input type="text" name="Sugestoes" placeholder="Coloque aqui suas sugestões e perguntas">
+                </div>
+
+                <div class="Envia">
+                    <button id="Subm">
+                        Enviar
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

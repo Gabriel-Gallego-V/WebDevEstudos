@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    color: aliceblue;
+}
+body{
+    background-image: url("https://img.freepik.com/fotos-gratis/maos-femininas-digitando-no-teclado-do-computador_1303-27358.jpg?w=2000");
+    background-size: cover;
+    background-color: hsla(276, 72%, 29%, 0.712);
+    background-blend-mode: multiply;
+}
+.Centra{
+    margin: 5% 25% 0 25%;
+    align-items: center;
+    display: block;
+}
+.Intro{
+    color: black;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.Intro h2{
+    font-size:30px;
+}
+.Intro h3{
+    font-size: 20px;
+}
+.FormBack{
+    opacity: 1;
+    background-color: rgba(65, 5, 105, 0.9);
+    border-radius: 10px;
+}
+.Form{
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 2%;
+    box-sizing: border-box;
+    display: block;
+}
+.Form h3{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.inputBoxes{
+    margin-right: 3%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.inputBoxes label{
+    font-size: 20px;    
+}
+.inputBoxes input{
+    margin-top: 0.5%;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: white;
+    padding-left: 1%;
+}
+.Selects{
+    margin-top: 0.5%;
+    width: 101%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: white;
+    color: gray;
+}
+.radioBoxes{
+    font-size: 20px;
+}
+.radioBoxes input{
+    width: 20px;
+    height: 20px;
+}
+.radios{
+    margin-top: 2%;
+}
+.radioBoxes #Outros{
+    margin-top: 0.5%;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: white;
+    padding-left: 1%;
+}
+.Sugest{
+    margin-right: 3%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 20px;    
+}
+.Sugest input{
+    margin-top: 0.5%;
+    width: 100%;
+    height: 100px;
+    resize: horizontal;
+    border-radius: 5px;
+    border-color: white;
+    padding-left: 1%;
+}
+
+.Envia button{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+    border-color: green;
+
+}
+.Envia button:hover{
+    background-color: rgb(1, 95, 1);
+    border-color: rgb(1, 95, 1);
+    cursor: pointer;
+}
