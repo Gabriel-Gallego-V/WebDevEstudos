@@ -1,0 +1,96 @@
+:root{
+    --cinza: rgb(44, 41, 46);
+    --branco: rgb(212, 212, 212);
+    --btn: rgb(95, 158, 160);
+    --btnH: rgb(77, 129, 131);
+    max-width: 406;
+    min-height: 675;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width: 620px) {
+    .Dados img {
+      width: 5px;
+      height: 5px;
+    }
+}
+body{
+    background-color: var(--cinza);
+}
+.HBase{
+    width: 100%;
+    display:inline-flex;
+    justify-content: space-between;
+    background-color: var(--cinza);
+}
+.HBase h2{
+    color: var(--branco);
+    align-self: center;
+}
+.HBase #logo{
+    margin-left: 0.2%;
+    margin-top: 0.2%;
+    height: 50px;
+    width: 50px;
+}
+.HBase #cm{
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    background-color:var(--btn);
+    border-color: var(--btn);
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+}
+.HBase #cm:hover{
+    background-color: var(--btnH);
+    border-color: var(--btnH);
+    cursor: pointer;
+}
+#pl{
+    background-image: url("https://img.freepik.com/fotos-premium/capacete-de-esportes-em-uma-bicicleta-de-montanha-verde-no-parque-protecao-de-conceito-durante-o-estilo-de-vida-ativo-e-saudavel_97716-156.jpg?w=2000");
+    background-size: cover;
+    background-color: rgba(36, 35, 37, 0.856);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 500px;
+}
+#pl2{
+    background-image: url("https://aliancabike.org.br/wp-content/uploads/2021/06/bicicleta-segura.jpeg");
+    background-size: cover;
+    background-color: rgba(36, 35, 37, 0.856);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 500px;
+}
+.Cont{
+    background-color: var(--branco);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.ContImg{
+    padding-top: 2%;
+    width: 100%;
+    display:inline-flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 12px;
+}
+.Dados img{
+    width: 30vh;
+    height: 30vh;
+}
+.Ft{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cinza);
+    font-size: 10px;
+    color: var(--branco);
+}
