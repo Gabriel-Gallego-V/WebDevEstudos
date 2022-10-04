@@ -10,8 +10,8 @@ O projeto é 100% acadêmico, e os direitos de imagem são de seus respectivos d
 Segue abaixo uma imagem de preview  
   
 ![Site](https://user-images.githubusercontent.com/90656961/185997856-114c2c75-bdae-4c9f-888d-c6f246cb62ef.png)
-  
-  
+ 
+
 ## 02.Calculadora
 
 Calculadora básica feita com HTML, CSS e um pouco de Js. Seria possível adicionar algumas features e extras, mas o foco é ter um projeto funcional por dia.  
@@ -21,7 +21,15 @@ Segue abaixo uma imagem da calculadora, com uma operação sendo feita.
   
 ## 03.FormTeste
 
-Essa página é feita para ser um teste de formulário em html e css. Favor ignorar as cores, estava focado na construição do site.  
+Essa página é feita para ser um teste de formulário em html e css.    
 Tornar este form em algo utilizável é possível, uma vez que ficaram faltando apenas os valores dos campos escolhidos. Futuramente posso melhorar este form, mas no momento estou satisfeito com o resultado.  
 Segue abaixo uma imagem de preview do site
-![image](https://user-images.githubusercontent.com/90656961/193638599-a97d4622-c5c2-4bdd-af7e-a71521caf0a9.png)
+
+![image](https://user-images.githubusercontent.com/90656961/193867778-659edaa2-eaea-4727-831f-1a2243c4a154.png)
+
+## 04.Parallax
+Uma página de uma empresa fictícia que gerencia o comércio de bicicletas.  
+Criei principalmente para testar alguns conhecimentos prévios e tentar fazer um background com parallax.  
+Segue abaixo uma imagem de preview do site
+
+![image](https://user-images.githubusercontent.com/90656961/193867567-8edd644e-cd7b-4b46-9ecb-5302dd05e5b7.png)
