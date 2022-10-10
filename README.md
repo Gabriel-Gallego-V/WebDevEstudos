@@ -33,3 +33,11 @@ Criei principalmente para testar alguns conhecimentos prévios e tentar fazer um
 Segue abaixo uma imagem de preview do site
 
 ![image](https://user-images.githubusercontent.com/90656961/193867567-8edd644e-cd7b-4b46-9ecb-5302dd05e5b7.png)
+
+## 05.LandingPage
+Mais uma página de uma empresa fictícia, porém dessa vez, com mais foco na usabilidade/responsividade. Como ainda estou iniciando na responsividade, alguns componentes
+podem acabar saindo do lugar.
+Segue abaixo uma imagem de preview
+
+![image](https://user-images.githubusercontent.com/90656961/194918249-8c175345-42bd-496a-8c05-326283e96ed0.png)
+
